@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="ans-wind" id="ans-window">
+        </div>
+        <div class="real-window">
+            <div id="real-window"></div>
+        </div>
+        <div class="func">
+            <button id="m+" onclick="Mem('+')"">M+</button>
+            <button id="m-" onclick="Mem('-')">M-</button>
+            <button id="mrc" onclick="getMem()">MRC</button>
+            <button id="on" onclick="clean()">ON/AC</button>
+        </div>
+        <div class="main">
+            <div class="numbers">
+                <button id="7" onclick="number(7)">7</button>
+                <button id="8" onclick="number(8)">8</button>
+                <button id="9" onclick="number(9)">9</button>
+                <button id="4" onclick="number(4)">4</button>
+                <button id="5" onclick="number(5)">5</button>
+                <button id="6" onclick="number(6)">6</button>
+                <button id="1" onclick="number(1)">1</button>
+                <button id="2" onclick="number(2)">2</button>
+                <button id="3" onclick="number(3)">3</button>
+                <button id="0" onclick="number('0')">0</button>
+                <button id="00" onclick="number('.')">.</button>
+                <button id="back" onclick="back()">--></button>
+            </div>
+            <div class="operations">
+                <button id="existing" onclick="valid('/')">/</button>
+                <button id="incresing" onclick="valid('*')">*</button>
+                <button id="minus" onclick="valid('-')">-</button>
+                <button id="plus" onclick="valid('+')">+</button>
+                <button id="ans" onclick="valid('=')">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

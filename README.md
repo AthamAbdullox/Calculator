@@ -1,2 +1,2 @@
-# Calculator
-Calcutor with bugs
+# my calculator
+ my first calculator
